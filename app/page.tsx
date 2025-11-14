@@ -29,7 +29,7 @@ export default function Home() {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mb-8"
               >
                 <Triangle className="w-4 h-4 text-zinc-400" />
-                <span className="text-sm text-zinc-400">Geometry Shaders</span>
+                <span className="text-sm text-zinc-400">Dynamic Mesh</span>
               </motion.div>
 
               <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500">
@@ -116,17 +116,15 @@ export default function Home() {
         {/* Description Section - More Dynamic */}
         <section className="py-20 px-6">
           <div className="max-w-6xl mx-auto">
-            <motion.h2
+              <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-5xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500"
             >
-              Creación Dinámica de Geometría
-            </motion.h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              El arte de la geometría
+            </motion.h2>            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
               {/* Card 1 */}
               <motion.div
                 initial={{ opacity: 0, x: -40 }}
